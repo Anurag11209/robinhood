@@ -1,0 +1,73 @@
+/* https://github.com/lxndroc/react-robinhood-clone */
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  color: white;
+  /* background-color: black; */
+}
+
+.header__logo {
+  margin-left: 48px;
+}
+
+.header__search {
+  display: flex;
+  height: 39px;
+  padding: 10px;
+  align-items: center;
+  /* background-color: black; */
+}
+
+.header__searchContainer {
+  height: 20px;
+  border: 1px solid #31363a;
+  border-radius: 4px;
+  width: 375px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* width: 100%; */
+  /* padding: 5px; */
+}
+
+.header__searchContainer > .MuiSvgIcon-root {
+  color: gray;
+  padding: 10px;
+}
+
+.header__searchContainer > input {
+  background-color: black;
+  border: none;
+  width: 100%;
+  /* width: 375px; */
+  margin-left: 5px;
+  margin-right: 10px;
+  color: white;
+}
+
+.header__searchContainer > input:focus {
+  outline: none;
+}
+
+.header__menuItems {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.header__menuItems a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.header__menuItems a:hover,
+.header__menuItems a:active {
+  color: #5ac53b;
+}
+
+a:first-of-type {
+  color: #5ac53b;
+}
